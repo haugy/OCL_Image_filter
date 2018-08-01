@@ -5,7 +5,7 @@
 README.md、CMakeLists.txt、ocl_filter.cpp、convkernel.cl
 系统环境：Ubuntu16.04
 * * *
-##opencl简介
+## opencl简介
 OpenCL程序是分成两部分的：一部分是在设备上执行的（对于我们，是GPU），另一部分是在主机上运行的（对于我们，是CPU）。为了能在设备上执行代码，程序员需要写一个特殊的函数（kernel函数）。这个函数需要使用OpenCL语言编写。OpenCL语言采用了C语言的一部分加上一些约束、关键字和数据类型。
 * * *
 ### 设备（Device）
